@@ -2,7 +2,7 @@
 Creates a jwt token from credentials that will be authenticated by an ldap server. Currently using [this](https://www.forumsys.com/tutorials/integration-how-to/ldap/online-ldap-test-server/) ldap demo server to authenticate requests.
 
 ## demo logins
-All user passwords are password. You may also bind to individual Users (uid) or the two Groups (ou) that include:
+All user names are password. You may also bind to individual Users (uid) or the two Groups (ou) that include:
 * ou=mathematicians,dc=example,dc=com
    * riemann
    * gauss
